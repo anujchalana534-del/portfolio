@@ -2,6 +2,8 @@
 
 A responsive MCA graduate portfolio built with HTML and CSS. No build step, JavaScript, or package installation is required.
 
+[View My Portfolio](https://anujchalana534-del.github.io/portfolio/)
+
 ## Preview
 
 Open [index.html](index.html) in a browser. Edit the content in [index.html](index.html) and the design in [style.css](style.css).
@@ -47,4 +49,3 @@ The page includes responsive navigation, semantic sections, a keyboard skip link
 - Decorative workspace photograph: [Unsplash image source](https://images.unsplash.com/photo-1496181133206-80ce9b88a853), loaded from `images.unsplash.com`.
 
 These assets require an internet connection and make requests to third-party services. The text, layout, and navigation remain usable with fallback fonts if they are unavailable. For a fully self-hosted site, download appropriately licensed assets and update their paths.
-
