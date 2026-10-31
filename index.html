@@ -1,123 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Anuj Chalana | Portfolio</title>
- 
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj Chalana | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
 
-    <header>
-        <nav>
-            <h2>Anuj Chalana</h2>
+    <!-- NAVBAR -->
 
-            <ul>
-                <li><a href="#about</li>
-                <li><skillsSkills</a></li>
-                <li><a href="#projects">></li>
-                <li><educationEducation</a></li>
-                <li><contactContact</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <div class="logo">Anuj.</div>
 
-        <div class="hero">
-            <h1>Hello, I'm Anuj Chalana</h1>
-            <p>MCA Final Year Student | Aspiring Software Developer</p>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-            <arojectsView Projects</a>
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <span class="tag">
+                👋 MCA Candidate | Software Developer
+            </span>
+
+            <h1>
+                Building
+                <span class="gradient-text">
+                    Software Solutions
+                </span>
+                For Real World Problems
+            </h1>
+
+            <p>
+                I'm Anuj Chalana, an MCA student passionate about
+                Full Stack Development, Software Engineering,
+                Java, Python and modern web technologies.
+            </p>
+
+            <div class="buttons">
+
+                <a href="resume.pdf" class="btn">
+                    Download Resume
+                </a>
+
+                <a href="#projects" class="btn-outline">
+                    View Projects
+                </a>
+
+            </div>
+
+            <div class="socials">
+
+                <a href="#"><i class="fab fa-github"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+
+                <a href="#"><i class="fas fa-envelope"></i></a>
+
+            </div>
+
         </div>
-    </header>
+
+        <div class="hero-card">
+
+            <div class="card">
+
+                <h2>MCA</h2>
+                <p>Guru Nanak Dev University</p>
+
+            </div>
+
+            <div class="card">
+
+                <h2>Java</h2>
+                <p>Backend Development</p>
+
+            </div>
+
+            <div class="card">
+
+                <h2>SQL</h2>
+                <p>Database Design</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Motivated MCA Final Year student with a strong interest in
-            Software Development, Web Technologies and Problem Solving.
-            Currently building projects using HTML, CSS, JavaScript,
-            Python and Java while continuously improving my technical skills.
-        </p>
+
+        <div class="section-title">
+            <span>01</span>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="glass-box">
+
+            <p>
+                I am an MCA student with a strong interest in
+                software engineering, web development, databases
+                and problem solving.
+
+                My focus is on creating reliable and user-friendly
+                software solutions using modern development practices.
+            </p>
+
+        </div>
+
     </section>
+
+    <!-- SKILLS -->
 
     <section id="skills">
-        <h2>Skills</h2>
 
-        <div class="cards">
-            <div class="card">HTML</div>
-            <div class="card">CSS</div>
-            <div class="card">JavaScript</div>
-            <div class="card">Python</div>
-            <div class="card">Java</div>
-            <div class="card">Networking Basics</div>
-            <div class="card">Communication</div>
-            <div class="card">Teamwork</div>
+        <div class="section-title">
+            <span>02</span>
+            <h2>Skills</h2>
         </div>
+
+        <div class="skills-container">
+
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Java</div>
+            <div class="skill">Python</div>
+            <div class="skill">SQL Server</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">Git</div>
+            <div class="skill">GitHub</div>
+            <div class="skill">Bootstrap</div>
+
+        </div>
+
     </section>
+
+    <!-- FEATURED PROJECT -->
+
+    <section class="featured-project">
+
+        <div class="section-title">
+            <span>03</span>
+            <h2>Featured Project</h2>
+        </div>
+
+        <div class="project-card">
+
+            <div class="project-content">
+
+                <h3>Hospital Management System</h3>
+
+                <p>
+                    Desktop-based management solution developed using
+                    VB.NET and SQL Server featuring patient registration,
+                    doctor management, billing and medical records.
+                </p>
+
+                <div class="tech">
+
+                    <span>VB.NET</span>
+                    <span>SQL Server</span>
+                    <span>Database Design</span>
+
+                </div>
+
+                <a href="#" class="project-btn">
+                    View Project →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
 
     <section id="projects">
-        <h2>Projects</h2>
 
-        <div class="project">
+        <div class="section-title">
+            <span>04</span>
+            <h2>Projects</h2>
+        </div>
 
-            <h3>Hotel Management System</h3>
+        <div class="project-grid">
 
-            <p>
-                Developed a hotel management website using HTML, CSS and
-                JavaScript featuring room selection, booking forms,
-                customer management and responsive design.
-            </p>
+            <div class="project">
+                <h3>Hotel Management System</h3>
+                <p>Responsive booking and room management platform.</p>
+            </div>
+
+            <div class="project">
+                <h3>Tourism Management Website</h3>
+                <p>Destination browsing and travel booking solution.</p>
+            </div>
+
+            <div class="project">
+                <h3>Student Management System</h3>
+                <p>Academic management and student data platform.</p>
+            </div>
 
         </div>
 
-        <div class="project">
-
-            <h3>International Tourism Management</h3>
-
-            <p>
-                Built a tourism website allowing users to explore destinations,
-                submit bookings and manage travel information using a responsive interface.
-            </p>
-
-        </div>
     </section>
+
+    <!-- EDUCATION -->
 
     <section id="education">
 
-        <h2>Education</h2>
+        <div class="section-title">
+            <span>05</span>
+            <h2>Education</h2>
+        </div>
 
-        <div class="education-box">
+        <div class="timeline">
 
-            <h3>Master of Computer Applications (MCA)</h3>
-            <p>Guru Nanak Dev University, Amritsar</p>
-            <p>2025 - 2027</p>
+            <div class="timeline-item">
+                <h3>MCA</h3>
+                <p>Guru Nanak Dev University</p>
+                <span>2022 - 2025</span>
+            </div>
 
-            <br>
-
-            <h3>Bachelor of Computer Applications (BCA)</h3>
-            <p>Guru Nanak National College, Doraha</p>
-            <p>68%</p>
+            <div class="timeline-item">
+                <h3>BCA</h3>
+                <p>Guru Nanak National College</p>
+                <span>2019 - 2022 | 68%</span>
+            </div>
 
         </div>
 
     </section>
 
+    <!-- CONTACT -->
+
     <section id="contact">
 
-        <h2>Contact</h2>
+        <div class="section-title">
+            <span>06</span>
+            <h2>Contact</h2>
+        </div>
 
-        <p>Email: anujchalana534@gmail.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/anujchalana">linkedin.com/in/anujchalana</a></p>
+        <div class="glass-box contact-box">
 
-        <asume.pdf
-            Download Resume
-        </a>
+            <h3>Let's Build Something Great</h3>
+
+            <p>Available for internships and software development roles.</p>
+
+            <p>📧 anujchalana534@gmail.com</p>
+
+            <p>🔗 linkedin.com/in/anujchalana</p>
+
+        </div>
 
     </section>
 
-    <footer>
-        <p>© 2026 Anuj Chalana. All Rights Reserved.</p>
-    </footer>
-
 </body>
+
 </html>
